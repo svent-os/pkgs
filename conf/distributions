@@ -1,0 +1,9 @@
+Origin: Svent OS
+Label: Svent OS
+Suite: rolling
+Codename: rolling
+Version: 1.0
+Architectures: amd64 source
+Components: main
+Description: Svent OS rolling package repository, built on Debian
+SignWith: REPLACE_WITH_KEYID

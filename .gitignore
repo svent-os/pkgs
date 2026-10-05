@@ -1,0 +1,9 @@
+# Generated repository state and build artifacts
+db/
+dists/
+pool/
+incoming/
+.gh-pages/
+*.deb
+*.changes
+*.buildinfo
