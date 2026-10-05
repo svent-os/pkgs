@@ -1,7 +1,7 @@
 #!/bin/sh
 # Add the Svent OS tool repository, then install Svent packages with apt.
 # Run as root, one line:
-#   sudo sh -c "$(curl -fsSL https://apt.zirov.net/add-apt-sventOS.sh)"
+#   sudo sh -c "$(curl -fsSL https://apt.zirov.net/sventup.sh)"
 set -eu
 KEY_URL="https://apt.zirov.net/svent-archive-keyring.gpg"
 KEYRING="/usr/share/keyrings/svent-archive-keyring.gpg"
@@ -24,5 +24,5 @@ SRC
 apt-get update
 echo
 echo "Svent repository added. Now install packages, for example:"
-echo "  sudo apt install sv-john"
+echo "  sudo apt install sv-nmap"
 echo "  sudo apt install svent-core svent-bspwm"
